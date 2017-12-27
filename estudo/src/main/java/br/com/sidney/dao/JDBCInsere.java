@@ -18,8 +18,7 @@ public class JDBCInsere {
 			System.out.println("Nome: " + contato.getNome());
 			System.out.println("Email: " + contato.getEmail());
 			System.out.println("Endereço: " + contato.getEndereco());
-			System.out.println("Data de Nascimento: "
-					+ sdf.format(contato.getDataNascimento().getTime()) + "\n");
+			System.out.println("Data de Nascimento: " + sdf.format(contato.getDataNascimento().getTime()) + "\n");
 		}
 
 		System.out.println("-------------por nome--------------");
@@ -29,8 +28,7 @@ public class JDBCInsere {
 			System.out.println("Nome: " + contato.getNome());
 			System.out.println("Email: " + contato.getEmail());
 			System.out.println("Endereço: " + contato.getEndereco());
-			System.out.println("Data de Nascimento: "
-					+ sdf.format(contato.getDataNascimento().getTime()) + "\n");
+			System.out.println("Data de Nascimento: " + sdf.format(contato.getDataNascimento().getTime()) + "\n");
 		}
 
 		System.out.println("-------------por id--------------");
@@ -40,11 +38,8 @@ public class JDBCInsere {
 			System.out.println("Nome: " + contato.getNome());
 			System.out.println("Email: " + contato.getEmail());
 			System.out.println("Endereço: " + contato.getEndereco());
-			System.out.println("Data de Nascimento: "
-					+ sdf.format(contato.getDataNascimento().getTime()) + "\n");
-			
-			
-			
+			System.out.println("Data de Nascimento: " + sdf.format(contato.getDataNascimento().getTime()) + "\n");
+
 		}
 
 	}
