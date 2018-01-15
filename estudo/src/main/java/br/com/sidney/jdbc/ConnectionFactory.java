@@ -14,7 +14,7 @@ public class ConnectionFactory {
 	 */
 	public Connection getConnection() {
 		try {
-			
+			DriverManager.registerDriver(new com.mysql.jdbc.Driver()); //Essa linha foi a diferença
 			Connection connection = DriverManager.getConnection("jdbc:mysql://localhost/estudo", "root", "");
 			System.out.println("Conectado...!");
 			return connection;

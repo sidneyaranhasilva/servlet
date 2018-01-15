@@ -4,6 +4,7 @@
 <html>
 <head>
 <title>Projeto fj21-agenda</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
 </head>
 <body>
 	<h1>Primeira página do projeto fj21-agenda</h1>
